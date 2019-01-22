@@ -1,0 +1,5 @@
+package com.cg.eurekaservice.EurekaServer.resource;
+
+public class EurekaResource {
+
+}

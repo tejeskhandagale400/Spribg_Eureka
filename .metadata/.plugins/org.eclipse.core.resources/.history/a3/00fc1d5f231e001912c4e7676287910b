@@ -1,0 +1,16 @@
+package com.cg.websiteclient.websiteclient;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+
+@EnableDiscoveryClient
+@SpringBootApplication
+public class WebsiteclientApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(WebsiteclientApplication.class, args);
+	}
+
+}
+
